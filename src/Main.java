@@ -6,5 +6,7 @@ public class Main {
         //bob.setCheckedBags(3); //java crea el metodo en Passenger
 
         Passenger nia = new Passenger(2);
+        //Passenger jojo = new Passenger(0.1d); no se puede
+        Passenger santiago = new Passenger(2, 3);
     }
 }
