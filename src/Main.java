@@ -1,15 +1,15 @@
+import java.util.EnumSet;
+
 public class Main {
     public static void main(String[] args){
-        CargoFlight vuelo1 = new CargoFlight();
-        Flight[] listaDeAviones = new Flight[5];
-        listaDeAviones[0] = new Flight();
-        listaDeAviones[1] = new Flight();
-        listaDeAviones[2] = new CargoFlight();
+        Libro libro1 = new Libro();
+        libro1.numeroPag = 10;
+        System.out.println(libro1.numeroPag);
+        Libro libro2 = new Libro();
+        libro1.numeroPag = 12;
+        System.out.println(libro2.numeroPag);
 
-
-        vuelo1.sumarPeso();
-        listaDeAviones[0].sumarPeso();
-        listaDeAviones[2].sumarPeso();
-        
     }
+
+
 }
